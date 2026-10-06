@@ -19,7 +19,6 @@ const STORAGE_KEY = '@shopping_reminder';
 try {
   setNotificationHandler({
     handleNotification: async () => ({
-      shouldShowAlert: true,
       shouldShowBanner: true,
       shouldShowList: true,
       shouldPlaySound: true,
@@ -69,7 +68,6 @@ export function useNotifications(): UseNotificationsReturn {
           sound: 'default',
         });
       } catch (err) {
-        console.warn('[Reminders] No se pudo crear el canal Android:', err);
       }
     }
 
