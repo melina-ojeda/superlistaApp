@@ -2,7 +2,7 @@
 
 Aplicación móvil para gestionar una lista de compras, desarrollada con **React Native**, **Expo** y **TypeScript**. Permite registrarse, iniciar sesión, agregar y marcar productos como comprados, ver status de la lista y programar recordatorios con notificaciones locales. Todos los datos se guardan en el dispositivo.
 
-> **Video demo:** 
+> **Video demo:** https://youtu.be/vkXPhjsLLko
 
 ---
 
